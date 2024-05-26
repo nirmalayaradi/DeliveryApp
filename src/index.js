@@ -7,7 +7,7 @@ import StoreContextProvider from './context/StoreContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/DeliveryApp" >
     <StoreContextProvider>
       <App />
     </StoreContextProvider>
